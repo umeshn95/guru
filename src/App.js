@@ -140,7 +140,7 @@ function App() {
                     <Route exact path="/10th/testpage" component={Testpage10th} countdownTimestampMs={1643673600000} />
 
                       {/* 10th Test Interst/ */}
-                      <Route exact={true} path="/10th/int/paymentsummary"> <Prodected Cmp={PaymentSummary10thint} /> </Route>
+                    <Route exact={true} path="/10th/int/paymentsummary"> <Prodected Cmp={PaymentSummary10thint} /> </Route>
                     <Route exact path="/10th/int/paymentconfirm"> <Prodected Cmp={PaymentConfirm10thint} /> </Route>
                     <Route exact path="/10th/int/paymentassessment"> <Prodected Cmp={Assessment10thint} /> </Route>
                     <Route exact path="/10th/int/result"> <Prodected Cmp={ResultPage10thint} /> </Route>
